@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EsMzTMOzbyQ=",
+  "success": true,
+  "projectFilePath": "D:\\New folder\\ECommerce\\ECommerce\\ECommerce.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khadk\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
