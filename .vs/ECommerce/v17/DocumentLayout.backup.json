@@ -1,12 +1,57 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\New folder\\ECommerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommerce\\ecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommerce\\ecommerce\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\New folder\\ECommerce\\ECommerce\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ECommerce\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\New folder\\ECommerce\\ECommerce\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ECommerce\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T14:33:04.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\New folder\\ECommerce\\ECommerce\\Dockerfile",
+              "RelativeDocumentMoniker": "ECommerce\\Dockerfile",
+              "ToolTip": "D:\\New folder\\ECommerce\\ECommerce\\Dockerfile",
+              "RelativeToolTip": "ECommerce\\Dockerfile",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-25T14:08:03.436Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

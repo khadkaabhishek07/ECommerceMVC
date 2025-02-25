@@ -32,3 +32,4 @@ D:\New folder\ECommerce\ECommerce\obj\Debug\net8.0\refint\ECommerce.dll
 D:\New folder\ECommerce\ECommerce\obj\Debug\net8.0\ECommerce.pdb
 D:\New folder\ECommerce\ECommerce\obj\Debug\net8.0\ECommerce.genruntimeconfig.cache
 D:\New folder\ECommerce\ECommerce\obj\Debug\net8.0\ref\ECommerce.dll
+D:\New folder\ECommerce\ECommerce\obj\Debug\net8.0\ECommerce.sourcelink.json

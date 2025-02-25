@@ -1,8 +1,281 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
+    ViewData["Title"] = " Handicraft E-commerce";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+       
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        .slider {
+         display: flex;
+         overflow: hidden;
+         scroll-behavior: smooth;
+        }
+        .slider::-webkit-scrollbar {
+         display: none;
+        }
+        .slider-item {
+         flex: 0 0 auto;
+         width: 160px;
+         height: 160px;
+         margin-right: 16px;
+        }
+    </style>
+</head>
+<body class="font-roboto bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a class="text-2xl font-bold text-gray-800" href="#">
+                HandiCraft
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a class="text-gray-600 hover:text-gray-800" href="#">
+                    Home
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="#">
+                    Shop
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="#">
+                    About
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="#">
+                    Contact
+                </a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-600 focus:outline-none">
+                    <i class="fas fa-bars">
+                    </i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+                    Discover Unique Handicrafts
+                </h1>
+                <p class="text-gray-600 mb-6">
+                    Explore our collection of handmade crafts from artisans around the world.
+                </p>
+                <a class="bg-blue-600 text-white px-6 py-3 rounded-md" href="#">
+                    Shop Now
+                </a>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img alt="A collection of various handmade crafts displayed aesthetically" height="400" src="https://storage.googleapis.com/a1aa/image/N0wkPbRNKD69hXnThGa68dEYDbAxphd1kUAxVKqTr1w.jpg" width="600" />
+            </div>
+        </div>
+    </section>
+    <!-- Circular Products Slider -->
+    <section class="bg-gray-100 py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">
+                Featured Products
+            </h2>
+            <div class="relative">
+                <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none" id="prev">
+                    <i class="fas fa-chevron-left">
+                    </i>
+                </button>
+                <div class="slider flex space-x-4 overflow-x-auto">
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handmade ceramic vase with intricate patterns" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handwoven basket with colorful designs" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handcrafted wooden sculpture of an animal" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handmade jewelry with beads and stones" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/lrdKjv-QVw08CLp_3-D__ySL5dhxIJBGDh9n_lhIq8k.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Hand-painted decorative plate with floral designs" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/0jHmPR7QQlmz4ZuoiJGu_sdh_5ARcybps8lr4EblZpE.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handcrafted leather wallet with embossed patterns" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/kehRkU4Oh4i0OImD-qRdhndDKoZNnkp7bKQc7npKXIA.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handmade knitted scarf with vibrant colors" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/1m04uHQvsHI4MHDBgVsChlbP-mL_aaAmd3YyFcL0nYA.jpg" width="150" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-full bg-white shadow-md p-4">
+                        <img alt="Handcrafted pottery mug with unique glaze" class="w-full h-full object-cover rounded-full" height="150" src="https://storage.googleapis.com/a1aa/image/7AVEyZ7O5y_YhVQvHL-uVfbeL_Ptf8mt-Py-mvx_caQ.jpg" width="150" />
+                    </div>
+                </div>
+                <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none" id="next">
+                    <i class="fas fa-chevron-right">
+                    </i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Top Featured Products -->
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">
+                Top Featured Products
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img alt="Handmade ceramic vase with intricate patterns" class="w-full h-48 object-cover rounded-md mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" width="300" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">
+                        Ceramic Vase
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Beautifully crafted ceramic vase with intricate patterns.
+                    </p>
+                    <a class="bg-blue-600 text-white px-4 py-2 rounded-md" href="product">
+                        View Details
+                    </a>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img alt="Handwoven basket with colorful designs" class="w-full h-48 object-cover rounded-md mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" width="300" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">
+                        Woven Basket
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Handwoven basket with vibrant and colorful designs.
+                    </p>
+                    <a class="bg-blue-600 text-white px-4 py-2 rounded-md" href="#">
+                        View Details
+                    </a>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img alt="Handcrafted wooden sculpture of an animal" class="w-full h-48 object-cover rounded-md mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" width="300" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">
+                        Wooden Sculpture
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Exquisite wooden sculpture handcrafted with precision.
+                    </p>
+                    <a class="bg-blue-600 text-white px-4 py-2 rounded-md" href="#">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        HandiCraft
+                    </h3>
+                    <p class="text-gray-400">
+                        Discover unique handmade crafts from artisans around the world.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        Quick Links
+                    </h3>
+                    <ul>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        Customer Service
+                    </h3>
+                    <ul>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                Shipping &amp; Returns
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="#">
+                                Terms of Service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        Follow Us
+                    </h3>
+                    <div class="flex space-x-4">
+                        <a class="text-gray-400 hover:text-white" href="#">
+                            <i class="fab fa-facebook-f">
+                            </i>
+                        </a>
+                        <a class="text-gray-400 hover:text-white" href="#">
+                            <i class="fab fa-twitter">
+                            </i>
+                        </a>
+                        <a class="text-gray-400 hover:text-white" href="#">
+                            <i class="fab fa-instagram">
+                            </i>
+                        </a>
+                        <a class="text-gray-400 hover:text-white" href="#">
+                            <i class="fab fa-pinterest">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-gray-400 mt-8">
+                © 2023 HandiCraft. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script>
+        const slider = document.querySelector('.slider');
+        const nextButton = document.getElementById('next');
+        const prevButton = document.getElementById('prev');
+
+        nextButton.addEventListener('click', () => {
+          slider.scrollBy({ left: 200, behavior: 'smooth' });
+        });
+
+        prevButton.addEventListener('click', () => {
+          slider.scrollBy({ left: -200, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
