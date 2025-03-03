@@ -1,6 +1,12 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\products\product-4\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg
+wwwroot\images\products\product-8\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg
+wwwroot\js\company.js
+wwwroot\js\order.js
+wwwroot\js\product.js
 wwwroot\js\site.js
+wwwroot\js\user.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

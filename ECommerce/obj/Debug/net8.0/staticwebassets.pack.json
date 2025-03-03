@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ECommerce.ckqppwhpi7.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ECommerce.0m0jfrloqh.bundle.scp.css"
     },
     {
       "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\css\\site.css",
@@ -13,8 +13,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
     },
     {
       "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\LICENSE",

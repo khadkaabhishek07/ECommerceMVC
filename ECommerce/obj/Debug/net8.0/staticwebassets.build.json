@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rUQyUqhb4NUmYzzYnLBrkVQnu+jV6ocYkZenHy0tu4A=",
+  "Hash": "jPcpskbqToNVEw2eTKMzVh7AQz4eVK9XMh44PIiNrh0=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -1291,8 +1291,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "ckqppwhpi7",
-      "Integrity": "RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0=",
+      "Fingerprint": "0m0jfrloqh",
+      "Integrity": "KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerce.styles.css"
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "ckqppwhpi7",
-      "Integrity": "RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0=",
+      "Fingerprint": "0m0jfrloqh",
+      "Integrity": "KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css"
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "960ukrb723",
+      "Integrity": "n1ODd7VT/1jP5/jNyrgh+99ib+gblSpsIOGAHIt4iv0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1361,6 +1361,111 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "images/products/product-4/00c9173d-4687-495e-8fa0-2ea31eb50ed6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9zrvoy9h2p",
+      "Integrity": "ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg"
+    },
+    {
+      "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "images/products/product-8/431a2d7f-690e-4fe0-adf4-0a2cce619ae0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9zrvoy9h2p",
+      "Integrity": "ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg"
+    },
+    {
+      "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\company.js",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "js/company#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dacarr5icd",
+      "Integrity": "S4wZt/38f5b3+B0nCM7N7yOG6QZMOMp801+ydiNVYn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "js/order#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iyaclie78a",
+      "Integrity": "huDGupZ/0rOEuoCvlBWbqjEBbIfs0RZahBazNH1HyBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
+    },
+    {
+      "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\product.js",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "js/product#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "995sp3bsns",
+      "Integrity": "Y6EvDmKyAY6GwcGl2pLL/7HQXxMgTsPJcdvZ6QZduEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
+    },
+    {
       "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -1375,11 +1480,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "fr7q2aak1r",
+      "Integrity": "y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\user.js",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "js/user#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vqvmci1hwh",
+      "Integrity": "N66ol7dB8QU8gIR8yu5Tvr1SnkNcy/Eoz6QeT18dtSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\user.js"
     },
     {
       "Identity": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2581,7 +2707,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.960ukrb723.css",
       "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2591,7 +2717,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "11555"
         },
         {
           "Name": "Content-Type",
@@ -2599,11 +2725,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"n1ODd7VT/1jP5/jNyrgh+99ib+gblSpsIOGAHIt4iv0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Sun, 02 Mar 2025 14:31:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2613,7 +2739,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "960ukrb723"
         },
         {
           "Name": "label",
@@ -2621,7 +2747,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-n1ODd7VT/1jP5/jNyrgh+99ib+gblSpsIOGAHIt4iv0="
         }
       ]
     },
@@ -2636,7 +2762,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "11555"
         },
         {
           "Name": "Content-Type",
@@ -2644,11 +2770,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"n1ODd7VT/1jP5/jNyrgh+99ib+gblSpsIOGAHIt4iv0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Sun, 02 Mar 2025 14:31:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2658,7 +2784,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-n1ODd7VT/1jP5/jNyrgh+99ib+gblSpsIOGAHIt4iv0="
+        }
+      ]
+    },
+    {
+      "Route": "ECommerce.0m0jfrloqh.bundle.scp.css",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 02:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0m0jfrloqh"
+        },
+        {
+          "Name": "label",
+          "Value": "ECommerce.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE="
+        }
+      ]
+    },
+    {
+      "Route": "ECommerce.0m0jfrloqh.styles.css",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerce.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 02:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0m0jfrloqh"
+        },
+        {
+          "Name": "label",
+          "Value": "ECommerce.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE="
         }
       ]
     },
@@ -2673,7 +2889,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1116"
         },
         {
           "Name": "Content-Type",
@@ -2681,11 +2897,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0=\""
+          "Value": "\"KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Mon, 03 Mar 2025 02:09:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2695,97 +2911,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0="
-        }
-      ]
-    },
-    {
-      "Route": "ECommerce.ckqppwhpi7.bundle.scp.css",
-      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ckqppwhpi7"
-        },
-        {
-          "Name": "label",
-          "Value": "ECommerce.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0="
-        }
-      ]
-    },
-    {
-      "Route": "ECommerce.ckqppwhpi7.styles.css",
-      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerce.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ckqppwhpi7"
-        },
-        {
-          "Name": "label",
-          "Value": "ECommerce.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0="
+          "Value": "sha256-KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE="
         }
       ]
     },
@@ -2800,7 +2926,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1116"
         },
         {
           "Name": "Content-Type",
@@ -2808,11 +2934,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0=\""
+          "Value": "\"KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Mon, 03 Mar 2025 02:09:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2822,7 +2948,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RCS2mehl39W/2OixV5rp9dv3M2yvjSdf8e7fMcAYny0="
+          "Value": "sha256-KGtSn/YQzqbXpuYcPkjZsiqV1IWmb4g7v01tIWRplHE="
         }
       ]
     },
@@ -2849,7 +2975,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Sun, 02 Mar 2025 14:31:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2894,7 +3020,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Sun, 02 Mar 2025 14:31:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5129,6 +5255,461 @@
       ]
     },
     {
+      "Route": "images/products/product-4/00c9173d-4687-495e-8fa0-2ea31eb50ed6.9zrvoy9h2p.jpg",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 16:59:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9zrvoy9h2p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/product-4/00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/product-4/00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 16:59:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/product-8/431a2d7f-690e-4fe0-adf4-0a2cce619ae0.9zrvoy9h2p.jpg",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 16:54:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9zrvoy9h2p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/product-8/431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/product-8/431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 16:54:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZU/XUym8Qg4jBCfUgJoF4/8PK1fheev395yxJ+GomVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/company.dacarr5icd.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\company.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4wZt/38f5b3+B0nCM7N7yOG6QZMOMp801+ydiNVYn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dacarr5icd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/company.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4wZt/38f5b3+B0nCM7N7yOG6QZMOMp801+ydiNVYn8="
+        }
+      ]
+    },
+    {
+      "Route": "js/company.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\company.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4wZt/38f5b3+B0nCM7N7yOG6QZMOMp801+ydiNVYn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4wZt/38f5b3+B0nCM7N7yOG6QZMOMp801+ydiNVYn8="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.iyaclie78a.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huDGupZ/0rOEuoCvlBWbqjEBbIfs0RZahBazNH1HyBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iyaclie78a"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-huDGupZ/0rOEuoCvlBWbqjEBbIfs0RZahBazNH1HyBQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huDGupZ/0rOEuoCvlBWbqjEBbIfs0RZahBazNH1HyBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-huDGupZ/0rOEuoCvlBWbqjEBbIfs0RZahBazNH1HyBQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/product.995sp3bsns.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\product.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y6EvDmKyAY6GwcGl2pLL/7HQXxMgTsPJcdvZ6QZduEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "995sp3bsns"
+        },
+        {
+          "Name": "label",
+          "Value": "js/product.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y6EvDmKyAY6GwcGl2pLL/7HQXxMgTsPJcdvZ6QZduEw="
+        }
+      ]
+    },
+    {
+      "Route": "js/product.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\product.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y6EvDmKyAY6GwcGl2pLL/7HQXxMgTsPJcdvZ6QZduEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y6EvDmKyAY6GwcGl2pLL/7HQXxMgTsPJcdvZ6QZduEw="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.fr7q2aak1r.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fr7q2aak1r"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -5139,7 +5720,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "227"
         },
         {
           "Name": "Content-Type",
@@ -5147,11 +5728,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5161,13 +5742,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
+      "Route": "js/user.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\user.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5176,7 +5757,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "2627"
         },
         {
           "Name": "Content-Type",
@@ -5184,11 +5765,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"N66ol7dB8QU8gIR8yu5Tvr1SnkNcy/Eoz6QeT18dtSk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 07:23:37 GMT"
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N66ol7dB8QU8gIR8yu5Tvr1SnkNcy/Eoz6QeT18dtSk="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.vqvmci1hwh.js",
+      "AssetFile": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N66ol7dB8QU8gIR8yu5Tvr1SnkNcy/Eoz6QeT18dtSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 14:31:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5198,15 +5816,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "vqvmci1hwh"
         },
         {
           "Name": "label",
-          "Value": "js/site.js"
+          "Value": "js/user.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-N66ol7dB8QU8gIR8yu5Tvr1SnkNcy/Eoz6QeT18dtSk="
         }
       ]
     },
