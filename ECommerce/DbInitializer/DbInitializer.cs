@@ -53,12 +53,12 @@ namespace ECommerce.DbInitializer
                 {
                     UserName = "admin@dotnet.com",
                     Email = "admin@dotnet.com",
-                    Name = "DEBORAJ ROY",
-                    PhoneNumber = "01708119559",
-                    StreetAddress = "VIKTORIA 123 Ave",
-                    State = "DK",
-                    PostalCode = "23422",
-                    City = "DHAKA"
+                    Name = "ABHISHEK KHADKA",
+                    PhoneNumber = "9803127458",
+                    StreetAddress = "Lalitpur",
+                    State = "BAGMATI",
+                    PostalCode = "44600",
+                    City = "LALITPUR"
                 }, "Admin@123*").GetAwaiter().GetResult();
 
 

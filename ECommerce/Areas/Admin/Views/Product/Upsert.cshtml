@@ -20,19 +20,20 @@
                             <label asp-for="Product.Title" class="ms-2"></label>
                             <span asp-validation-for="Product.Title" class="text-danger"></span>
                         </div>
-                        <div class="py-2 col-12">
-                            <label asp-for="Product.Description" class="ms-2 text-muted"></label>
-                            <input asp-for="Product.Description" class="form-control border-0 shadow"></input>
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Product.Description" class="form-control border-0 shadow" />
+                            <label asp-for="Product.Description" class="ms-2"></label>
+                            <span asp-validation-for="Product.Description" class="text-danger"></span>
                         </div>
 
                         <div class="form-floating py-2 col-12">
                             <input asp-for="Product.ISBN" class="form-control border-0 shadow" />
-                            <label asp-for="Product.ISBN" class="ms-2"></label>
+                            <label asp-for="Product.ISBN" class="ms-2">Product Code</label>
                             <span asp-validation-for="Product.ISBN" class="text-danger"></span>
                         </div>
                         <div class="form-floating py-2 col-12">
                             <input asp-for="Product.Author" class="form-control border-0 shadow" />
-                            <label asp-for="Product.Author" class="ms-2"></label>
+                            <label asp-for="Product.Author" class="ms-2">Tags</label>
                             <span asp-validation-for="Product.Author" class="text-danger"></span>
                         </div>
                         <div class="form-floating py-2 col-12">
@@ -40,7 +41,7 @@
                             <label asp-for="Product.ListPrice" class="ms-2"></label>
                             <span asp-validation-for="Product.ListPrice" class="text-danger"></span>
                         </div>
-                        <div class="form-floating py-2 col-12">
+                        @* <div class="form-floating py-2 col-12">
                             <input asp-for="Product.Price" class="form-control border-0 shadow" />
                             <label asp-for="Product.Price" class="ms-2"></label>
                             <span asp-validation-for="Product.Price" class="text-danger"></span>
@@ -56,7 +57,7 @@
                             <input asp-for="Product.Price100" class="form-control border-0 shadow" />
                             <label asp-for="Product.Price100" class="ms-2"></label>
                             <span asp-validation-for="Product.Price100" class="text-danger"></span>
-                        </div>
+                        </div> *@
 
                         <div class="form-floating py-2 col-12">
                             <select asp-for="@Model.Product.CategoryId" asp-items="@Model.CategoryList" class="form-select border-0 shadow">

@@ -259,17 +259,17 @@ namespace ECommerce.Areas.Customer.Controllers
         {
             if (shoppingCart.Count <= 50)
             {
-                return shoppingCart.Product.Price;
+                return shoppingCart.Product.ListPrice;
             }
             else
             {
                 if (shoppingCart.Count <= 100)
                 {
-                    return shoppingCart.Product.Price50;
+                    return shoppingCart.Product.ListPrice;
                 }
                 else
                 {
-                    return shoppingCart.Product.Price100;
+                    return shoppingCart.Product.ListPrice;
                 }
             }
         }
