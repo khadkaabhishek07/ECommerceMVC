@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-1\\00651a01-103a-4993-8b00-3313b6aba5ac.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1\\00651a01-103a-4993-8b00-3313b6aba5ac.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-1\\4c3976ad-91cb-4023-a845-de209bfb0a50.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1\\4c3976ad-91cb-4023-a845-de209bfb0a50.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\16679168-dd3a-4d02-bf48-d0f332d243db.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2\\16679168-dd3a-4d02-bf48-d0f332d243db.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\5ff92fed-d07a-4414-93cc-8a83faffe98b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2\\5ff92fed-d07a-4414-93cc-8a83faffe98b.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\cafe7246-0567-4d9e-9b33-95385b2929c9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2\\cafe7246-0567-4d9e-9b33-95385b2929c9.jpg"
+    },
+    {
       "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg"
     },
