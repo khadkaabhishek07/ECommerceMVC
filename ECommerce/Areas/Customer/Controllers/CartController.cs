@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Stripe.Checkout;
 using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
 
 namespace ECommerce.Areas.Customer.Controllers
 {
@@ -15,12 +18,16 @@ namespace ECommerce.Areas.Customer.Controllers
     {
 
         private readonly IUnitOfWork _unitOfWork;
+        private readonly EsewaPaymentService _esewaPaymentService;
+        private const string SecretKey = "8gBm/:&EnhH.1/q";
+
         //private readonly IEmailSender _emailSender;
         [BindProperty]
         public ShoppingCartVM ShoppingCartVM { get; set; }
-        public CartController(IUnitOfWork unitOfWork)
+        public CartController(IUnitOfWork unitOfWork, EsewaPaymentService esewaPaymentService)
         {
             _unitOfWork = unitOfWork;
+            _esewaPaymentService = esewaPaymentService;
             //_emailSender = emailSender;
         }
 
@@ -81,6 +88,7 @@ namespace ECommerce.Areas.Customer.Controllers
             }
             return View(ShoppingCartVM);
         }
+       
 
         [HttpPost]
         [ActionName("Summary")]
@@ -89,14 +97,10 @@ namespace ECommerce.Areas.Customer.Controllers
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 
-            ShoppingCartVM.ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
-                includeProperties: "Product");
-
-            ShoppingCartVM.OrderHeader.OrderDate = System.DateTime.Now;
+            ShoppingCartVM.ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId, includeProperties: "Product");
+            ShoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
             ShoppingCartVM.OrderHeader.ApplicationUserId = userId;
-
-            ApplicationUser applicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
-
+            ShoppingCartVM.OrderHeader.SessionId = Guid.NewGuid().ToString();
 
             foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
@@ -104,107 +108,103 @@ namespace ECommerce.Areas.Customer.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
 
-            if (applicationUser.CompanyId.GetValueOrDefault() == 0)
-            {
-                //it is a regular customer 
-                ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
-                ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusPending;
-            }
-            else
-            {
-                //it is a company user
-                ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusDelayedPayment;
-                ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusApproved;
-            }
+            ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
+            ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusPending;
+
+            // Generate Unique Transaction ID
+            string transactionUuid = Guid.NewGuid().ToString();
+            ShoppingCartVM.OrderHeader.PaymentIntentId = transactionUuid;
+
+            // Save OrderHeader with UUID
             _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
             _unitOfWork.Save();
-            foreach (var cart in ShoppingCartVM.ShoppingCartList)
-            {
-                OrderDetail orderDetail = new()
-                {
-                    ProductId = cart.ProductId,
-                    OrderHeaderId = ShoppingCartVM.OrderHeader.Id,
-                    Price = cart.Price,
-                    Count = cart.Count
-                };
-                _unitOfWork.OrderDetail.Add(orderDetail);
-                _unitOfWork.Save();
-            }
 
-            if (applicationUser.CompanyId.GetValueOrDefault() == 0)
-            {
+            // Construct the eSewa Payment URL
+            string successUrl = $"{Request.Scheme}://{Request.Host}/customer/cart/PaymentSuccess";
+            string failureUrl = $"{Request.Scheme}://{Request.Host}/customer/cart/PaymentFailure?orderId={ShoppingCartVM.OrderHeader.Id}";
 
-                //it is a regular customer account and we need to capture payment
-                //stripe logic
-
-                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
-                var options = new SessionCreateOptions
-                {
-                    SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
-                    CancelUrl = domain + "customer/cart/index",
-                    LineItems = new List<SessionLineItemOptions>(),
-                    Mode = "payment",
-                };
-
-                foreach (var item in ShoppingCartVM.ShoppingCartList)
-                {
-                    var sessionLineItem = new SessionLineItemOptions
-                    {
-                        PriceData = new SessionLineItemPriceDataOptions
-                        {
-                            UnitAmount = (long)(item.Price * 100), // $20.50 => 2050
-                            Currency = "usd",
-                            ProductData = new SessionLineItemPriceDataProductDataOptions
-                            {
-                                Name = item.Product.Title
-                            }
-                        },
-                        Quantity = item.Count
-                    };
-                    options.LineItems.Add(sessionLineItem);
-                }
+            // Build the data to be sent to eSewa
+            var formData = new Dictionary<string, string>
+    {
+        { "amount", ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2") },
+        { "tax_amount", "0" },
+        { "total_amount", ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2") },
+        { "transaction_uuid", transactionUuid },
+        { "product_code", "EPAYTEST" },
+        { "product_service_charge", "0" },
+        { "product_delivery_charge", "0" },
+        { "success_url", successUrl },
+        { "failure_url", failureUrl },
+        { "signed_field_names", "total_amount,transaction_uuid,product_code" },
+        { "signature", GenerateSignature(transactionUuid, ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2")) },
+        { "url", "https://rc-epay.esewa.com.np/api/epay/main/v2/form" } // Add the URL to the form data
+    };
 
 
-                var service = new SessionService();
-                Session session = service.Create(options);
-                _unitOfWork.OrderHeader.UpdateStripePaymentID(ShoppingCartVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
-                _unitOfWork.Save();
-                Response.Headers.Add("Location", session.Url);
-                return new StatusCodeResult(303);
-            }
-
-            return RedirectToAction(nameof(OrderConfirmation), new { id = ShoppingCartVM.OrderHeader.Id });
+            // Return the view that will submit the form
+            return View("EsewaForm", formData);
         }
 
 
-        public IActionResult OrderConfirmation(int id)
+        public IActionResult PaymentSuccess(string data)
         {
-
-            OrderHeader orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == id, includeProperties: "ApplicationUser");
-            if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
+            if (string.IsNullOrEmpty(data))
             {
-                //this is an order by customer
+                return BadRequest("Invalid eSewa response.");
+            }
 
-                var service = new SessionService();
-                Session session = service.Get(orderHeader.SessionId);
+            var decodedBytes = Convert.FromBase64String(data);
+            var decodedString = Encoding.UTF8.GetString(decodedBytes);
+            var responseObj = JsonSerializer.Deserialize<EsewaResponse>(decodedString);
 
-                if (session.PaymentStatus.ToLower() == "paid")
+            if (responseObj != null && responseObj.status == "COMPLETE")
+            {              
+
+                var orderHeader = _unitOfWork.OrderHeader.Get(u => u.PaymentIntentId == responseObj.transaction_uuid);
+                if (orderHeader != null && orderHeader.PaymentIntentId == responseObj.transaction_uuid)
                 {
-                    _unitOfWork.OrderHeader.UpdateStripePaymentID(id, session.Id, session.PaymentIntentId);
-                    _unitOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
+                    _unitOfWork.OrderHeader.UpdateStatus(orderHeader.Id, SD.StatusApproved, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
 
-                HttpContext.Session.Clear();
+                List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
+                .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+
+                _unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
+                _unitOfWork.Save();
+
+                return View("OrderConfirmation", orderHeader.Id);
 
             }
 
-            List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
-                .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+            return RedirectToAction(nameof(Index));
+        }
 
-            _unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
-            _unitOfWork.Save();
-            return View(id);
+        public IActionResult PaymentFailure(int orderId, string transaction_uuid, string total_amount, string status)
+        {
+            var orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == orderId);
+            if (orderHeader != null && orderHeader.PaymentIntentId == transaction_uuid)
+            {
+                _unitOfWork.OrderHeader.UpdateStatus(orderHeader.Id, SD.StatusCancelled, SD.PaymentStatusRejected);
+                _unitOfWork.Save();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
+
+        public static string GenerateSignature(string transactionUuid, string totalAmount)
+        {
+            string productCode = "EPAYTEST"; // Ensure this is consistent with your request
+
+            string signedData = $"total_amount={totalAmount},transaction_uuid={transactionUuid},product_code={productCode}";
+
+            using (var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(SecretKey)))
+            {
+                byte[] hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(signedData));
+                return Convert.ToBase64String(hash);
+            }
         }
 
 

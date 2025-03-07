@@ -289,6 +289,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\logo.jpg",
+      "PackagePath": "staticwebassets\\logo\\logo.jpg"
+    },
+    {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\tick.jpg",
+      "PackagePath": "staticwebassets\\logo\\tick.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

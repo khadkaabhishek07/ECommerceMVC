@@ -1,0 +1,29 @@
+﻿@model Dictionary<string, string>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting to eSewa...</title>
+</head>
+<body onload="document.getElementById('esewaForm').submit();">
+    <form id="esewaForm" method="post" action="@Model["url"]">
+        @foreach (var item in Model)
+        {
+            if (item.Key != "url")
+            {
+                <input type="hidden" name="@item.Key" value="@item.Value" />
+            }
+        }
+        <noscript>
+            <center>Please click the button below to proceed to eSewa.</center>
+            <input type="submit" value="Proceed to eSewa" />
+        </noscript>
+    </form>
+    <script type="text/javascript">
+        document.getElementById('esewaForm').submit();
+    </script>
+</body>
+</html>

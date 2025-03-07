@@ -188,7 +188,7 @@ namespace ECommerce.Areas.Identity.Pages.Account
                         await _userManager.AddToRoleAsync(user, SD.Role_Customer);
                     }
 
-                    TempData["success"] = "Company Registered successfully";
+                    TempData["success"] = "Customer Registered successfully";
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
