@@ -88,7 +88,7 @@ namespace ECommerce.Areas.Customer.Controllers
             }
             return View(ShoppingCartVM);
         }
-       
+
 
         [HttpPost]
         [ActionName("Summary")]
@@ -98,7 +98,7 @@ namespace ECommerce.Areas.Customer.Controllers
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 
             ShoppingCartVM.ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId, includeProperties: "Product");
-            ShoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
+            ShoppingCartVM.OrderHeader.OrderDate = DateTime.UtcNow;
             ShoppingCartVM.OrderHeader.ApplicationUserId = userId;
             ShoppingCartVM.OrderHeader.SessionId = Guid.NewGuid().ToString();
 
@@ -144,6 +144,7 @@ namespace ECommerce.Areas.Customer.Controllers
             // Return the view that will submit the form
             return View("EsewaForm", formData);
         }
+
 
 
         public IActionResult PaymentSuccess(string data)

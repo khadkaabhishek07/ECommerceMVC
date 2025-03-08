@@ -289,6 +289,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\logo\\favicon.png"
+    },
+    {
       "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\logo.jpg",
       "PackagePath": "staticwebassets\\logo\\logo.jpg"
     },

@@ -87,10 +87,10 @@ namespace ECommerce.Areas.Admin.Controllers
             orderHeader.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
             orderHeader.Carrier = OrderVM.OrderHeader.Carrier;
             orderHeader.OrderStatus = SD.StatusShipped;
-            orderHeader.ShippingDate = DateTime.Now;
+            orderHeader.ShippingDate = DateTime.UtcNow;
             if (orderHeader.PaymentStatus == SD.PaymentStatusDelayedPayment)
             {
-                orderHeader.PaymentDueDate = DateTime.Now.AddDays(30);
+                orderHeader.PaymentDueDate = DateTime.UtcNow.AddDays(30);
             }
 
             _unitOfWork.OrderHeader.Update(orderHeader);

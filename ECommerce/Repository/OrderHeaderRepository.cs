@@ -48,7 +48,7 @@ namespace ECommerce.Repository
 			if (!string.IsNullOrEmpty(paymentIntentId))
 			{
 				orderFromDb.PaymentIntentId = paymentIntentId;
-				orderFromDb.PaymentDate = DateTime.Now;
+				orderFromDb.PaymentDate = DateTime.UtcNow;
 			}
 		}
 	}
