@@ -78,8 +78,7 @@
               "ViewState": "AgIAAFkAAAAAAAAAAAAIwF4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:06:34.897Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -89,7 +88,7 @@
               "RelativeDocumentMoniker": "ECommerce\\Utility\\EmailSender.cs",
               "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Utility\\EmailSender.cs",
               "RelativeToolTip": "ECommerce\\Utility\\EmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T05:18:36.649Z",
               "EditorCaption": ""
@@ -102,7 +101,7 @@
               "RelativeDocumentMoniker": "ECommerce\\Program.cs",
               "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Program.cs",
               "RelativeToolTip": "ECommerce\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T05:07:22.244Z",
               "EditorCaption": ""
@@ -113,7 +112,7 @@
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\khadk\\AppData\\Roaming\\Microsoft\\UserSecrets\\78cafbc5-0f29-461a-a97a-fe89fbe2b310\\secrets.json",
               "ToolTip": "C:\\Users\\khadk\\AppData\\Roaming\\Microsoft\\UserSecrets\\78cafbc5-0f29-461a-a97a-fe89fbe2b310\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-08T04:43:00.707Z",
               "EditorCaption": ""

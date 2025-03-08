@@ -9,9 +9,6 @@ using ECommerce.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add this to load Render's secret file
-builder.Configuration.AddJsonFile("/etc/secrets/secrets.json", optional: true, reloadOnChange: true);
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
