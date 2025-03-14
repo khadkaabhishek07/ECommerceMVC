@@ -23,7 +23,13 @@ namespace ECommerce.Areas.Customer.Controllers
         public IActionResult Index()
         {
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
-            return View(productList);
+            return View("Landing", productList);
+        }
+
+        public IActionResult ViewAllProducts()
+        {
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
+            return View("Index", productList);
         }
 
         public IActionResult Details(int productId)

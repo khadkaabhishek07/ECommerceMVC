@@ -1,0 +1,144 @@
+﻿@model IEnumerable<Product>
+
+<style>
+    .slider {
+        display: flex;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+        .slider::-webkit-scrollbar {
+            display: none;
+        }
+
+    .slider-item {
+        flex: 0 0 auto;
+        width: 160px;
+        height: 160px;
+        margin-right: 16px;
+    }
+
+    .slider-button {
+        background-color: #343a40; /* Bootstrap dark color */
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1; /* Ensure buttons are above the slider */
+    }
+</style>
+    <!-- Navbar -->
+  
+    <section class="bg-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 text-dark mb-4">Discover Unique Handicrafts</h1>
+                    <p class="text-muted mb-4">Explore our collection of handmade crafts from artisans around the world.</p>
+@*                     <a class="btn btn-primary" href="#">Shop Now</a>
+ *@                <a class="btn btn-primary" asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts">Shop Now</a>
+
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <img alt="A collection of various handmade crafts displayed aesthetically" class="img-fluid" src="https://storage.googleapis.com/a1aa/image/N0wkPbRNKD69hXnThGa68dEYDbAxphd1kUAxVKqTr1w.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Circular Products Slider -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="h3 font-weight-bold text-dark mb-4">Featured Products</h2>
+            <div class="position-relative">
+                <button class="btn btn-dark position-absolute top-50 start-0 translate-middle-y" id="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider flex space-x-4 overflow-x-auto">
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handmade ceramic vase with intricate patterns" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handwoven basket with colorful designs" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handcrafted wooden sculpture of an animal" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handmade jewelry with beads and stones" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/lrdKjv-QVw08CLp_3-D__ySL5dhxIJBGDh9n_lhIq8k.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Hand-painted decorative plate with floral designs" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/0jHmPR7QQlmz4ZuoiJGu_sdh_5ARcybps8lr4EblZpE.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handcrafted leather wallet with embossed patterns" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/kehRkU4Oh4i0OImD-qRdhndDKoZNnkp7bKQc7npKXIA.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handmade knitted scarf with vibrant colors" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/1m04uHQvsHI4MHDBgVsChlbP-mL_aaAmd3YyFcL0nYA.jpg" />
+                    </div>
+                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
+                        <img alt="Handcrafted pottery mug with unique glaze" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/7AVEyZ7O5y_YhVQvHL-uVfbeL_Ptf8mt-Py-mvx_caQ.jpg" />
+                    </div>
+                </div>
+                <button class="btn btn-dark position-absolute top-50 end-0 translate-middle-y" id="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Top Featured Products -->
+    <section class="bg-white py-5">
+        <div class="container">
+            <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img alt="Handmade ceramic vase with intricate patterns" class="card-img-top" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Ceramic Vase</h5>
+                            <p class="card-text">Beautifully crafted ceramic vase with intricate patterns.</p>
+@*                             <a class="btn btn-primary" href="product">View Details</a>
+ *@                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img alt="Handwoven basket with colorful designs" class="card-img-top" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Woven Basket</h5>
+                            <p class="card-text">Handwoven basket with vibrant and colorful designs.</p>
+@*                             <a class="btn btn-primary" href="#">View Details</a>
+ *@                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img alt="Handcrafted wooden sculpture of an animal" class="card-img-top" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Wooden Sculpture</h5>
+                            <p class="card-text">Exquisite wooden sculpture handcrafted with precision.</p>
+@*                             <a class="btn btn-primary" href="#">View Details</a>
+ *@                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script>
+    const slider = document.querySelector('.slider');
+    const nextButton = document.getElementById('next');
+    const prevButton = document.getElementById('prev');
+
+    nextButton.addEventListener('click', () => {
+        slider.scrollBy({ left: 200, behavior: 'smooth' });
+    });
+
+    prevButton.addEventListener('click', () => {
+        slider.scrollBy({ left: -200, behavior: 'smooth' });
+    });
+</script>
+
