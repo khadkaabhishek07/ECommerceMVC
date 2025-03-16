@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\New folder\\ECommerceMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -101,11 +113,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Controllers\\CartController.cs",
@@ -118,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Controllers\\HomeController.cs",
@@ -131,13 +143,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T05:46:12.233Z",
               "IsPinned": true,
@@ -145,20 +157,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Landing.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAABUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T05:55:45.709Z",
+              "WhenOpened": "2025-03-16T07:29:51.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bootstrap.css.map",
+              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeDocumentMoniker": "ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeToolTip": "ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAC5pgcAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-16T07:20:49.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "EnableAuthenticator.cshtml.cs",
+              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeToolTip": "ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAQwLcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T07:18:37.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Landing.cshtml",
+              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T05:55:45.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_Layout.cshtml",
@@ -170,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\Error.cshtml",
@@ -183,6 +233,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Program.cs",
+              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Program.cs",
+              "RelativeToolTip": "ECommerce\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T05:07:22.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_LoginPartial.cshtml",
@@ -194,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -206,19 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Program.cs",
-              "RelativeDocumentMoniker": "ECommerce\\Program.cs",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Program.cs",
-              "RelativeToolTip": "ECommerce\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T05:07:22.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_Notification.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Notification.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_Notification.cshtml",
@@ -230,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ECommerce\\Data\\ApplicationDbContext.cs",
@@ -242,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Utility\\EmailSender.cs",
               "RelativeDocumentMoniker": "ECommerce\\Utility\\EmailSender.cs",
@@ -254,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\khadk\\AppData\\Roaming\\Microsoft\\UserSecrets\\78cafbc5-0f29-461a-a97a-fe89fbe2b310\\secrets.json",
               "ToolTip": "C:\\Users\\khadk\\AppData\\Roaming\\Microsoft\\UserSecrets\\78cafbc5-0f29-461a-a97a-fe89fbe2b310\\secrets.json",
@@ -264,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\DbInitializer\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ECommerce\\DbInitializer\\DbInitializer.cs",
@@ -276,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Admin\\Controllers\\OrderController.cs",
@@ -288,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -300,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\appsettings.json",
               "RelativeDocumentMoniker": "ECommerce\\appsettings.json",
@@ -312,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Models\\OrderHeader.cs",
               "RelativeDocumentMoniker": "ECommerce\\Models\\OrderHeader.cs",
@@ -324,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "20250303045732_initial.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Migrations\\20250303045732_initial.cs",
               "RelativeDocumentMoniker": "ECommerce\\Migrations\\20250303045732_initial.cs",
@@ -336,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "OrderHeaderRepository.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Repository\\OrderHeaderRepository.cs",
               "RelativeDocumentMoniker": "ECommerce\\Repository\\OrderHeaderRepository.cs",
@@ -348,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Admin\\Controllers\\UserController.cs",
@@ -360,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "EsewaPaymentService.cs",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Utility\\EsewaPaymentService.cs",
               "RelativeDocumentMoniker": "ECommerce\\Utility\\EsewaPaymentService.cs",
@@ -372,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "EsewaForm.cshtml",
               "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\EsewaForm.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Cart\\EsewaForm.cshtml",
