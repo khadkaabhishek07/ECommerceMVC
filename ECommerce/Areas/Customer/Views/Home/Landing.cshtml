@@ -30,6 +30,77 @@
         justify-content: center;
         z-index: 1; /* Ensure buttons are above the slider */
     }
+
+    .uniform-card {
+        height: 380px; /* Adjust height for a better layout */
+        border: none;
+        border-radius: 12px; /* Rounded corners for modern look */
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+        .uniform-card:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Glow effect */
+        }
+
+        .uniform-card .card-img-top-container {
+            height: 280px; /* Adjust to fit the card layout */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent; /* Remove unwanted background */
+        }
+
+        .uniform-card .card-img-top {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures image fills container without stretching */
+            transition: transform 0.3s ease;
+        }
+
+        .uniform-card:hover .card-img-top {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        .uniform-card .card-body {
+            padding: 1.2rem;
+            text-align: center;
+        }
+
+        .uniform-card .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .uniform-card .card-text {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .uniform-card .btn-primary {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+            .uniform-card .btn-primary:hover {
+                background: linear-gradient(135deg, #feb47b, #ff7e5f);
+                transform: scale(1.05);
+            }
+
+
+
+  
+
 </style>
     <!-- Navbar -->
   
@@ -52,7 +123,7 @@
     <!-- Circular Products Slider -->
     <section class="bg-light py-5">
         <div class="container">
-            <h2 class="h3 font-weight-bold text-dark mb-4">Featured Products</h2>
+            <h2 class="h3 font-weight-bold text-dark mb-4">Featured Categories</h2>
             <div class="position-relative">
                 <button class="btn btn-dark position-absolute top-50 start-0 translate-middle-y" id="prev">
                     <i class="fas fa-chevron-left"></i>
@@ -90,43 +161,37 @@
         </div>
     </section>
     <!-- Top Featured Products -->
-    <section class="bg-white py-5">
-        <div class="container">
-            <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
-            <div class="row g-4">
+<section class="bg-white py-5">
+    <div class="container">
+        <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
+        <div class="row g-4">
+            @foreach (var product in Model)
+            {
                 <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <img alt="Handmade ceramic vase with intricate patterns" class="card-img-top" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" />
-                        <div class="card-body">
-                            <h5 class="card-title">Ceramic Vase</h5>
-                            <p class="card-text">Beautifully crafted ceramic vase with intricate patterns.</p>
-@*                             <a class="btn btn-primary" href="product">View Details</a>
- *@                        </div>
-                    </div>
+                    <a asp-action="Details" asp-route-productId="@product.Id" class="text-decoration-none">
+                        <div class="card shadow-sm uniform-card">
+                            <div class="card-img-top-container">
+                                <img alt="@product.Title" src="@product.ProductImages.FirstOrDefault()?.ImageUrl" class="card-img-top img-fluid" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">@product.Title</h5>
+                                <p class="card-text text-muted">@product.Description</p>
+                                <div>
+                                    <a asp-action="Details" asp-route-productId="@product.Id"
+                                       class="btn btn-primary bg-gradient border-0 form-control">
+                                        Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <img alt="Handwoven basket with colorful designs" class="card-img-top" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" />
-                        <div class="card-body">
-                            <h5 class="card-title">Woven Basket</h5>
-                            <p class="card-text">Handwoven basket with vibrant and colorful designs.</p>
-@*                             <a class="btn btn-primary" href="#">View Details</a>
- *@                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <img alt="Handcrafted wooden sculpture of an animal" class="card-img-top" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" />
-                        <div class="card-body">
-                            <h5 class="card-title">Wooden Sculpture</h5>
-                            <p class="card-text">Exquisite wooden sculpture handcrafted with precision.</p>
-@*                             <a class="btn btn-primary" href="#">View Details</a>
- *@                        </div>
-                    </div>
-                </div>
-            </div>
+
+            }
         </div>
-    </section>
+    </div>
+</section>
+
 
 <script>
     const slider = document.querySelector('.slider');

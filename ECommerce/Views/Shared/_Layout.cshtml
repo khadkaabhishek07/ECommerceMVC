@@ -78,7 +78,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HandiCraft</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Basaladevi Handiraft</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -86,10 +86,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Manage Order</a>
-                        </li>
+                        </li>                       
                         @if (User.IsInRole(SD.Role_Admin))
                         {
                             <li class="nav-item dropdown">
@@ -99,18 +96,25 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a></li>
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a></li>
-                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+@*                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a></li>
+ *@                                    <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Create User</a></li>
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Manage User</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Manage Order</a>
+                            </li>
                         }
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
-                                @await Component.InvokeAsync("ShoppingCart")
-                            </a>
-                        </li>
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Customer))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                    @await Component.InvokeAsync("ShoppingCart")
+                                </a>
+                            </li>
+                        }
+                       
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
