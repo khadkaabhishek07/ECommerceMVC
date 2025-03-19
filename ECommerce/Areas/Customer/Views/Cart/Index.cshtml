@@ -18,7 +18,7 @@
             </div>
             <div class="row mb-3 pb-3">
                 <div class="col-md-2 offset-md-1">
-                    <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-outline-primary text-uppercase mb-5 btn-sm"><small>Continue Shopping</small></a>
+                    <a asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts" class="btn btn-outline-primary text-uppercase mb-5 btn-sm"><small>Continue Shopping</small></a>
                 </div>
                 <div class="col-md-10 offset-md-1">
 
@@ -83,9 +83,13 @@
                 </div>
                 <div class="row">
                     <div class="col-md-2 offset-md-5">
-                        <a asp-action="Summary" class="btn btn-primary border-0 bg-gradient w-100 py-2">Summary</a>
+                        <a asp-action="Summary"
+                           class="btn btn-primary border-0 bg-gradient w-100 py-2 @(Model.OrderHeader.OrderTotal <= 0 ? "disabled" : "")">
+                            Summary
+                        </a>
                     </div>
                 </div>
+
             </div>
         </div>
 </form>

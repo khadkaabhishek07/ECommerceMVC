@@ -89,6 +89,61 @@ namespace ECommerce.Areas.Customer.Controllers
             return View(ShoppingCartVM);
         }
 
+        //esewa payment wala method commented temporarily
+    //    [HttpPost]
+    //    [ActionName("Summary")]
+    //    public IActionResult SummaryPOST()
+    //    {
+    //        var claimsIdentity = (ClaimsIdentity)User.Identity;
+    //        var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+    //        ShoppingCartVM.ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId, includeProperties: "Product");
+    //        ShoppingCartVM.OrderHeader.OrderDate = DateTime.UtcNow;
+    //        ShoppingCartVM.OrderHeader.ApplicationUserId = userId;
+    //        ShoppingCartVM.OrderHeader.SessionId = Guid.NewGuid().ToString();
+
+    //        foreach (var cart in ShoppingCartVM.ShoppingCartList)
+    //        {
+    //            cart.Price = GetPriceBasedOnQuantity(cart);
+    //            ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+    //        }
+
+    //        ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
+    //        ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusPending;
+
+    //        // Generate Unique Transaction ID
+    //        string transactionUuid = Guid.NewGuid().ToString();
+    //        ShoppingCartVM.OrderHeader.PaymentIntentId = transactionUuid;
+
+    //        // Save OrderHeader with UUID
+    //        _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
+    //        _unitOfWork.Save();
+
+    //        // Construct the eSewa Payment URL
+    //        string successUrl = $"{Request.Scheme}://{Request.Host}/customer/cart/PaymentSuccess";
+    //        string failureUrl = $"{Request.Scheme}://{Request.Host}/customer/cart/PaymentFailure?orderId={ShoppingCartVM.OrderHeader.Id}";
+
+    //        // Build the data to be sent to eSewa
+    //        var formData = new Dictionary<string, string>
+    //{
+    //    { "amount", ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2") },
+    //    { "tax_amount", "0" },
+    //    { "total_amount", ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2") },
+    //    { "transaction_uuid", transactionUuid },
+    //    { "product_code", "EPAYTEST" },
+    //    { "product_service_charge", "0" },
+    //    { "product_delivery_charge", "0" },
+    //    { "success_url", successUrl },
+    //    { "failure_url", failureUrl },
+    //    { "signed_field_names", "total_amount,transaction_uuid,product_code" },
+    //    { "signature", GenerateSignature(transactionUuid, ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2")) },
+    //    { "url", "https://rc-epay.esewa.com.np/api/epay/main/v2/form" } // Add the URL to the form data
+    //};
+
+
+    //        // Return the view that will submit the form
+    //        return View("EsewaForm", formData);
+    //    }
 
         [HttpPost]
         [ActionName("Summary")]
@@ -119,30 +174,32 @@ namespace ECommerce.Areas.Customer.Controllers
             _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
             _unitOfWork.Save();
 
-            // Construct the eSewa Payment URL
-            string successUrl = $"{Request.Scheme}://{Request.Host}/customer/cart/PaymentSuccess";
-            string failureUrl = $"{Request.Scheme}://{Request.Host}/customer/cart/PaymentFailure?orderId={ShoppingCartVM.OrderHeader.Id}";
+            var orderHeader = _unitOfWork.OrderHeader.Get(u => u.PaymentIntentId == ShoppingCartVM.OrderHeader.PaymentIntentId);
 
-            // Build the data to be sent to eSewa
-            var formData = new Dictionary<string, string>
-    {
-        { "amount", ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2") },
-        { "tax_amount", "0" },
-        { "total_amount", ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2") },
-        { "transaction_uuid", transactionUuid },
-        { "product_code", "EPAYTEST" },
-        { "product_service_charge", "0" },
-        { "product_delivery_charge", "0" },
-        { "success_url", successUrl },
-        { "failure_url", failureUrl },
-        { "signed_field_names", "total_amount,transaction_uuid,product_code" },
-        { "signature", GenerateSignature(transactionUuid, ShoppingCartVM.OrderHeader.OrderTotal.ToString("F2")) },
-        { "url", "https://rc-epay.esewa.com.np/api/epay/main/v2/form" } // Add the URL to the form data
-    };
+            // Add OrderDetails
+            foreach (var cart in ShoppingCartVM.ShoppingCartList)
+            {
+                OrderDetail orderDetail = new()
+                {
+                    ProductId = cart.ProductId,
+                    OrderHeaderId = orderHeader.Id, // Use retrieved orderHeader.Id
+                    Price = cart.Price,
+                    Count = cart.Count
+                };
+                _unitOfWork.OrderDetail.Add(orderDetail);
+            }
+            _unitOfWork.Save(); // Save all order details in one go
+
+            List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
+               .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+
+            HttpContext.Session.Clear();
+            _unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
+            _unitOfWork.Save();
 
 
             // Return the view that will submit the form
-            return View("EsewaForm", formData);
+            return View("OrderPlaced");
         }
 
 
@@ -167,6 +224,20 @@ namespace ECommerce.Areas.Customer.Controllers
                     _unitOfWork.OrderHeader.UpdateStatus(orderHeader.Id, SD.StatusApproved, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
+
+                // Add OrderDetails
+                foreach (var cart in ShoppingCartVM.ShoppingCartList)
+                {
+                    OrderDetail orderDetail = new()
+                    {
+                        ProductId = cart.ProductId,
+                        OrderHeaderId = orderHeader.Id, // Use retrieved orderHeader.Id
+                        Price = cart.Price,
+                        Count = cart.Count
+                    };
+                    _unitOfWork.OrderDetail.Add(orderDetail);
+                }
+                _unitOfWork.Save(); // Save all order details in one go
 
                 List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
                 .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();

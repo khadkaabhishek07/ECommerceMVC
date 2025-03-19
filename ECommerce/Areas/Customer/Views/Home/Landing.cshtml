@@ -1,6 +1,12 @@
 ﻿@model IEnumerable<Product>
 
 <style>
+    .landing-page .container {
+        width: 100%;
+        max-width: none;
+       
+    }
+
     .slider {
         display: flex;
         overflow: hidden;
@@ -103,14 +109,14 @@
 
 </style>
     <!-- Navbar -->
-  
+    <body class="landing-page">
     <section class="bg-white py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <h1 class="display-4 text-dark mb-4">Discover Unique Handicrafts</h1>
                     <p class="text-muted mb-4">Explore our collection of handmade crafts from artisans around the world.</p>
-@*                     <a class="btn btn-primary" href="#">Shop Now</a>
+                    @*                     <a class="btn btn-primary" href="#">Shop Now</a>
  *@                <a class="btn btn-primary" asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts">Shop Now</a>
 
                 </div>
@@ -161,36 +167,38 @@
         </div>
     </section>
     <!-- Top Featured Products -->
-<section class="bg-white py-5">
-    <div class="container">
-        <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
-        <div class="row g-4">
-            @foreach (var product in Model)
-            {
-                <div class="col-md-4">
-                    <a asp-action="Details" asp-route-productId="@product.Id" class="text-decoration-none">
-                        <div class="card shadow-sm uniform-card">
-                            <div class="card-img-top-container">
-                                <img alt="@product.Title" src="@product.ProductImages.FirstOrDefault()?.ImageUrl" class="card-img-top img-fluid" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">@product.Title</h5>
-                                <p class="card-text text-muted">@product.Description</p>
-                                <div>
-                                    <a asp-action="Details" asp-route-productId="@product.Id"
-                                       class="btn btn-primary bg-gradient border-0 form-control">
-                                        Details
-                                    </a>
+    <section class="bg-white py-5">
+        <div class="container">
+            <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
+            <div class="row g-4">
+                @foreach (var product in Model)
+                {
+                    <div class="col-md-4">
+                        <a asp-action="Details" asp-route-productId="@product.Id" class="text-decoration-none">
+                            <div class="card shadow-sm uniform-card">
+                                <div class="card-img-top-container">
+                                    <img alt="@product.Title" src="@product.ProductImages.FirstOrDefault()?.ImageUrl" class="card-img-top img-fluid" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">@product.Title</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <div>
+                                        <a asp-action="Details" asp-route-productId="@product.Id"
+                                           class="btn btn-primary bg-gradient border-0 form-control">
+                                            Details
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
 
-            }
+                }
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+    </body>  
+   
 
 
 <script>

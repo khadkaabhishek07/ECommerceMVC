@@ -1,4 +1,5 @@
 ﻿using ECommerce.Models;
+using ECommerce.Models.ViewModels;
 using ECommerce.Repository.IRepository;
 using ECommerce.Utility;
 using Microsoft.AspNetCore.Authorization;
@@ -26,11 +27,43 @@ namespace ECommerce.Areas.Customer.Controllers
             return View("Landing", productList);
         }
 
-        public IActionResult ViewAllProducts()
+        //public IActionResult ViewAllProducts()
+        //{
+        //    IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
+        //    return View("Index", productList);
+        //}
+        public IActionResult ViewAllProducts(int pageNumber = 1, string searchTerm = "")
         {
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
-            return View("Index", productList);
+            int pageSize = 16; // Number of products per page
+
+            // Retrieve products based on search term
+            IQueryable<Product> query = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages").AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                searchTerm = searchTerm.ToLower();
+                query = query.Where(p => p.Title.ToLower().Contains(searchTerm) ||
+                                         p.Description.ToLower().Contains(searchTerm) ||
+                                         p.Author.ToLower().Contains(searchTerm));
+            }
+
+            // Pagination logic
+            int totalProducts = query.Count();
+            var productList = query.Skip((pageNumber - 1) * pageSize)
+                                   .Take(pageSize)
+                                   .ToList();
+
+            var viewModel = new ProductListViewModel
+            {
+                Products = productList,
+                CurrentPage = pageNumber,
+                TotalPages = (int)Math.Ceiling((double)totalProducts / pageSize),
+                SearchTerm = searchTerm
+            };
+
+            return View("Index", viewModel);
         }
+
 
         public IActionResult Details(int productId)
         {
