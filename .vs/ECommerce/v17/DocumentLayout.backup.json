@@ -1,50 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\New folder\\ECommerceMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|c:\\users\\khadk\\downloads\\basaladevi\\ecommercemvc\\ecommerce\\areas\\customer\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\views\\shared\\components\\shoppingcart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\views\\shared\\components\\shoppingcart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|c:\\users\\khadk\\downloads\\basaladevi\\ecommercemvc\\ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\cart\\orderplaced.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\cart\\orderplaced.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|d:\\new folder\\ecommercemvc\\ecommerce\\areas\\customer\\views\\cart\\esewaform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\areas\\customer\\views\\cart\\esewaform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,140 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "RelativeToolTip": "ECommerce\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T04:42:59.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ECommerce\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAG8AAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAIwKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T04:41:49.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBQAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T03:51:49.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EsewaForm.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\EsewaForm.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Cart\\EsewaForm.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\EsewaForm.cshtml",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Cart\\EsewaForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T03:51:38.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T04:00:26.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T03:51:30.979Z",
+              "WhenOpened": "2025-03-24T04:16:18.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Summary.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Landing.cshtml",
+              "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "ToolTip": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
+              "ViewState": "AgIAALMBAAAAAAAAAAAAAL8BAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T03:53:36.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderPlaced.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\OrderPlaced.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Cart\\OrderPlaced.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\OrderPlaced.cshtml",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Cart\\OrderPlaced.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T03:57:07.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderConfirmation.cshtml",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T03:58:13.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "order.js",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
-              "RelativeDocumentMoniker": "ECommerce\\wwwroot\\js\\order.js",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
-              "RelativeToolTip": "ECommerce\\wwwroot\\js\\order.js",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-19T04:13:28.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "ECommerce\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\New folder\\ECommerceMVC\\ECommerce\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "ECommerce\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T04:16:33.418Z"
+              "WhenOpened": "2025-03-24T04:15:36.252Z",
+              "EditorCaption": ""
             }
           ]
         }

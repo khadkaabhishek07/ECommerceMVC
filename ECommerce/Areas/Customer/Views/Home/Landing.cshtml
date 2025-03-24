@@ -4,8 +4,47 @@
     .landing-page .container {
         width: 100%;
         max-width: none;
-       
     }
+
+    .hero-section {
+        background-image: url('https://storage.googleapis.com/a1aa/image/N0wkPbRNKD69hXnThGa68dEYDbAxphd1kUAxVKqTr1w.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Darker overlay for better text visibility */
+        }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+        .hero-content h1 {
+            font-size: 3.5rem; /* Bigger text */
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-content p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
 
     .slider {
         display: flex;
@@ -19,13 +58,31 @@
 
     .slider-item {
         flex: 0 0 auto;
-        width: 160px;
-        height: 160px;
-        margin-right: 16px;
+        width: 200px; /* Bigger rounded images */
+        height: 200px; /* Bigger rounded images */
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider-item-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .category-name {
+        margin-top: 12px;
+        font-weight: 600;
+        color: #333;
+        text-align: center;
     }
 
     .slider-button {
-        background-color: #343a40; /* Bootstrap dark color */
+        background-color: #343a40;
         color: white;
         border: none;
         border-radius: 50%;
@@ -34,41 +91,41 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 1; /* Ensure buttons are above the slider */
+        z-index: 1;
     }
 
     .uniform-card {
-        height: 380px; /* Adjust height for a better layout */
+        height: 380px;
         border: none;
-        border-radius: 12px; /* Rounded corners for modern look */
+        border-radius: 12px;
         overflow: hidden;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
         .uniform-card:hover {
-            transform: translateY(-5px); /* Slight lift on hover */
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Glow effect */
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
         }
 
         .uniform-card .card-img-top-container {
-            height: 280px; /* Adjust to fit the card layout */
+            height: 280px;
             overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: transparent; /* Remove unwanted background */
+            background-color: transparent;
         }
 
         .uniform-card .card-img-top {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensures image fills container without stretching */
+            object-fit: cover;
             transition: transform 0.3s ease;
         }
 
         .uniform-card:hover .card-img-top {
-            transform: scale(1.05); /* Slight zoom effect on hover */
+            transform: scale(1.05);
         }
 
         .uniform-card .card-body {
@@ -103,30 +160,251 @@
                 transform: scale(1.05);
             }
 
+    /* FAQ Accordion Styles - BIGGER */
+    .faq-section {
+        padding: 80px 0;
+    }
 
+    .faq-container {
+        max-width: 900px; /* Wider container for FAQs */
+        margin: 0 auto;
+    }
 
-  
+    .accordion-item {
+        margin-bottom: 15px;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .accordion-button {
+        padding: 20px 25px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .accordion-body {
+        padding: 20px 25px;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: rgba(255, 126, 95, 0.1);
+        color: #ff7e5f;
+    }
+
+    .accordion-button:focus {
+        box-shadow: 0 0 0 0.25rem rgba(255, 126, 95, 0.25);
+    }
+
+    /* Contact Form Styles - SMALLER */
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-form {
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        max-width: 500px; /* Smaller form */
+        margin: 0 auto;
+    }
+
+        .contact-form .form-control {
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+        }
+
+            .contact-form .form-control:focus {
+                border-color: #ff7e5f;
+                box-shadow: 0 0 0 0.25rem rgba(255, 126, 95, 0.25);
+            }
+
+    .contact-submit-btn {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: 600;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+        .contact-submit-btn:hover {
+            background: linear-gradient(135deg, #feb47b, #ff7e5f);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    /* Featured Products Section Styles */
+    .featured-products-section {
+        padding: 80px 0;
+        background-color: #fff;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #222;
+        margin-bottom: 20px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .product-filters .nav-link {
+        color: #777;
+        font-weight: 500;
+        padding: 8px 20px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+    }
+
+        .product-filters .nav-link.active,
+        .product-filters .nav-link:hover {
+            color: #ff3e6c;
+        }
+
+    .product-card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background: white;
+        height: 100%;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+    .product-image-container {
+        position: relative;
+        overflow: hidden;
+        background-color: white;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: transform 0.5s ease;
+    }
+
+    .product-card:hover .product-image {
+        transform: scale(1.05);
+    }
+
+    .badge {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 2;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+        border-radius: 4px;
+    }
+
+    .product-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 15px;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-card:hover .product-overlay {
+        transform: translateY(0);
+    }
+
+    .btn-view-details {
+        background: linear-gradient(135deg, #ff3e6c, #ff8e8e);
+        color: white;
+        text-decoration: none;
+        padding: 8px 20px;
+        border-radius: 30px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        .btn-view-details:hover {
+            background: linear-gradient(135deg, #ff8e8e, #ff3e6c);
+            transform: translateY(-2px);
+        }
+
+    .product-info {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .product-rating {
+        margin-bottom: 10px;
+    }
+
+    .fa-star {
+        color: #ffc107;
+        font-size: 0.875rem;
+        margin: 0 1px;
+    }
+
+    .product-title {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    .product-price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .current-price {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .original-price {
+        font-size: 0.875rem;
+        color: #888;
+        text-decoration: line-through;
+    }
 
 </style>
-    <!-- Navbar -->
-    <body class="landing-page">
-    <section class="bg-white py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h1 class="display-4 text-dark mb-4">Discover Unique Handicrafts</h1>
-                    <p class="text-muted mb-4">Explore our collection of handmade crafts from artisans around the world.</p>
-                    @*                     <a class="btn btn-primary" href="#">Shop Now</a>
- *@                <a class="btn btn-primary" asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts">Shop Now</a>
 
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <img alt="A collection of various handmade crafts displayed aesthetically" class="img-fluid" src="https://storage.googleapis.com/a1aa/image/N0wkPbRNKD69hXnThGa68dEYDbAxphd1kUAxVKqTr1w.jpg" />
+<body class="landing-page">
+    <!-- Hero Section with Background Image - CENTERED TEXT -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 hero-content">
+                    <h1>Discover Unique Handicrafts</h1>
+                    <p>Explore our collection of handmade crafts from artisans around the world.</p>
+                    <a class="btn btn-primary" asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts">Shop Now</a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Circular Products Slider -->
+
+    <!-- Circular Products Slider - BIGGER WITH CATEGORY NAMES -->
     <section class="bg-light py-5">
         <div class="container">
             <h2 class="h3 font-weight-bold text-dark mb-4">Featured Categories</h2>
@@ -135,29 +413,37 @@
                     <i class="fas fa-chevron-left"></i>
                 </button>
                 <div class="slider flex space-x-4 overflow-x-auto">
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handmade ceramic vase with intricate patterns" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" />
+                    <div class="slider-item">
+                        <img alt="Ceramics" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/48ztYaUTZbYPCFcXk47OU52YkaWndaX_ZS5bbuxatDY.jpg" />
+                        <span class="category-name">Ceramics</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handwoven basket with colorful designs" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" />
+                    <div class="slider-item">
+                        <img alt="Baskets" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/vwidgTpM-16Kc-x42nTAcZxVyimcS19IDuNRDxMo26E.jpg" />
+                        <span class="category-name">Baskets</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handcrafted wooden sculpture of an animal" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" />
+                    <div class="slider-item">
+                        <img alt="Wooden Crafts" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/LGvvwoy9pysqy5Wi30SQqo7Sr1TCbU_Hy0cmlUUktkc.jpg" />
+                        <span class="category-name">Wooden Crafts</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handmade jewelry with beads and stones" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/lrdKjv-QVw08CLp_3-D__ySL5dhxIJBGDh9n_lhIq8k.jpg" />
+                    <div class="slider-item">
+                        <img alt="Jewelry" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/lrdKjv-QVw08CLp_3-D__ySL5dhxIJBGDh9n_lhIq8k.jpg" />
+                        <span class="category-name">Jewelry</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Hand-painted decorative plate with floral designs" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/0jHmPR7QQlmz4ZuoiJGu_sdh_5ARcybps8lr4EblZpE.jpg" />
+                    <div class="slider-item">
+                        <img alt="Pottery" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/0jHmPR7QQlmz4ZuoiJGu_sdh_5ARcybps8lr4EblZpE.jpg" />
+                        <span class="category-name">Pottery</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handcrafted leather wallet with embossed patterns" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/kehRkU4Oh4i0OImD-qRdhndDKoZNnkp7bKQc7npKXIA.jpg" />
+                    <div class="slider-item">
+                        <img alt="Leather Goods" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/kehRkU4Oh4i0OImD-qRdhndDKoZNnkp7bKQc7npKXIA.jpg" />
+                        <span class="category-name">Leather Goods</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handmade knitted scarf with vibrant colors" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/1m04uHQvsHI4MHDBgVsChlbP-mL_aaAmd3YyFcL0nYA.jpg" />
+                    <div class="slider-item">
+                        <img alt="Textiles" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/1m04uHQvsHI4MHDBgVsChlbP-mL_aaAmd3YyFcL0nYA.jpg" />
+                        <span class="category-name">Textiles</span>
                     </div>
-                    <div class="slider-item flex-none w-40 h-40 rounded-circle bg-white shadow-md p-4">
-                        <img alt="Handcrafted pottery mug with unique glaze" class="w-100 h-100 object-cover rounded-circle" src="https://storage.googleapis.com/a1aa/image/7AVEyZ7O5y_YhVQvHL-uVfbeL_Ptf8mt-Py-mvx_caQ.jpg" />
+                    <div class="slider-item">
+                        <img alt="Home Decor" class="slider-item-image" src="https://storage.googleapis.com/a1aa/image/7AVEyZ7O5y_YhVQvHL-uVfbeL_Ptf8mt-Py-mvx_caQ.jpg" />
+                        <span class="category-name">Home Decor</span>
                     </div>
                 </div>
                 <button class="btn btn-dark position-absolute top-50 end-0 translate-middle-y" id="next">
@@ -166,40 +452,153 @@
             </div>
         </div>
     </section>
+
     <!-- Top Featured Products -->
     <section class="bg-white py-5">
         <div class="container">
             <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
             <div class="row g-4">
+                <!-- For your foreach loop using your product model -->
                 @foreach (var product in Model)
                 {
                     <div class="col-md-4">
-                        <a asp-action="Details" asp-route-productId="@product.Id" class="text-decoration-none">
-                            <div class="card shadow-sm uniform-card">
-                                <div class="card-img-top-container">
-                                    <img alt="@product.Title" src="@product.ProductImages.FirstOrDefault()?.ImageUrl" class="card-img-top img-fluid" />
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-dark">@product.Title</h5>
-                                    <p class="card-text text-muted">@product.Description</p>
-                                    <div>
-                                        <a asp-action="Details" asp-route-productId="@product.Id"
-                                           class="btn btn-primary bg-gradient border-0 form-control">
-                                            Details
-                                        </a>
-                                    </div>
+                        <div class="product-card">
+                            <div class="product-image-container">
+                               
+                                <img src="@product.ProductImages.FirstOrDefault()?.ImageUrl" alt="@product.Title" class="img-fluid product-image">
+                                <div class="product-overlay">
+                                    <a asp-action="Details" asp-route-productId="@product.Id" class="btn-view-details">View Details</a>
                                 </div>
                             </div>
-                        </a>
+                            <div class="product-info">
+                                <div class="product-rating">
+                                    <!-- You could create a helper method to display the correct number of stars based on product rating -->
+                                    <!-- Or hard-code stars as shown in the HTML example -->
+                                </div>
+                                <h5 class="product-title">@product.Title</h5>
+                                <div class="product-price">
+                                    <span class="current-price">$@product.ListPrice</span>
+                                  
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 }
+
             </div>
         </div>
     </section>
-    </body>  
-   
 
+    <!-- FAQ Section with Accordion - BIGGER -->
+    <section class="bg-light py-5 faq-section">
+        <div class="container">
+            <h2 class="h3 font-weight-bold text-dark mb-5 text-center">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How are the handicrafts made?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                All our handicrafts are handmade by skilled artisans using traditional techniques passed down through generations. Each piece is carefully crafted with attention to detail, ensuring quality and authenticity in every item.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What materials are used in your products?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We use a variety of sustainable and ethically sourced materials including natural fibers, clay, wood, metals, and recycled materials. The specific materials vary by product and are detailed in each product description.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you ship internationally?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we ship our products worldwide. International shipping times and costs vary depending on the destination. Please allow 10-21 business days for international orders to arrive after shipping.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What is your return policy?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We accept returns within 30 days of delivery for most items in their original condition. Custom orders and certain delicate items may not be eligible for return. Please contact our customer service team for assistance with returns.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Can I commission a custom piece?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we offer custom orders for many of our product categories. Please contact us with your requirements, and we will connect you with an appropriate artisan. Custom orders typically require 4-6 weeks for completion.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Form Section - SMALLER -->
+    <section class="bg-white py-5 contact-section">
+        <div class="container">
+            <h2 class="h3 font-weight-bold text-dark mb-4 text-center">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <p class="text-muted">Have questions about our products or services? Fill out the form and we'll get back to you as soon as possible.</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form asp-controller="Home" asp-action="Contact" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="Email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="Subject" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="Message" rows="4" required></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="contact-submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
 
 <script>
     const slider = document.querySelector('.slider');
@@ -207,11 +606,10 @@
     const prevButton = document.getElementById('prev');
 
     nextButton.addEventListener('click', () => {
-        slider.scrollBy({ left: 200, behavior: 'smooth' });
+        slider.scrollBy({ left: 250, behavior: 'smooth' }); // Adjusted for bigger images
     });
 
     prevButton.addEventListener('click', () => {
-        slider.scrollBy({ left: -200, behavior: 'smooth' });
+        slider.scrollBy({ left: -250, behavior: 'smooth' }); // Adjusted for bigger images
     });
 </script>
-

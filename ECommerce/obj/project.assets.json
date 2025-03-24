@@ -4837,11 +4837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\ECommerceMVC\\ECommerce\\ECommerce.csproj",
+      "projectUniqueName": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\ECommerce.csproj",
       "projectName": "ECommerce",
-      "projectPath": "D:\\New folder\\ECommerceMVC\\ECommerce\\ECommerce.csproj",
+      "projectPath": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\ECommerce.csproj",
       "packagesPath": "C:\\Users\\khadk\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\",
+      "outputPath": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

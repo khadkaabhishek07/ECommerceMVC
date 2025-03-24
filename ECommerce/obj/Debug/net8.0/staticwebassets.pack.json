@@ -1,303 +1,303 @@
 {
   "Files": [
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
       "PackagePath": "staticwebassets\\ECommerce.0m0jfrloqh.bundle.scp.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-1\\00651a01-103a-4993-8b00-3313b6aba5ac.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-1\\00651a01-103a-4993-8b00-3313b6aba5ac.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-1\\00651a01-103a-4993-8b00-3313b6aba5ac.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-1\\4c3976ad-91cb-4023-a845-de209bfb0a50.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-1\\4c3976ad-91cb-4023-a845-de209bfb0a50.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-1\\4c3976ad-91cb-4023-a845-de209bfb0a50.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\16679168-dd3a-4d02-bf48-d0f332d243db.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\16679168-dd3a-4d02-bf48-d0f332d243db.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-2\\16679168-dd3a-4d02-bf48-d0f332d243db.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\5ff92fed-d07a-4414-93cc-8a83faffe98b.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\5ff92fed-d07a-4414-93cc-8a83faffe98b.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-2\\5ff92fed-d07a-4414-93cc-8a83faffe98b.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\cafe7246-0567-4d9e-9b33-95385b2929c9.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-2\\cafe7246-0567-4d9e-9b33-95385b2929c9.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-2\\cafe7246-0567-4d9e-9b33-95385b2929c9.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-4\\00c9173d-4687-495e-8fa0-2ea31eb50ed6.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-8\\431a2d7f-690e-4fe0-adf4-0a2cce619ae0.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\company.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\js\\company.js",
       "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\js\\order.js",
       "PackagePath": "staticwebassets\\js\\order.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\product.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\js\\user.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\js\\user.js",
       "PackagePath": "staticwebassets\\js\\user.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\favicon.png",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\favicon.png",
       "PackagePath": "staticwebassets\\logo\\favicon.png"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\logo.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\logo.jpg",
       "PackagePath": "staticwebassets\\logo\\logo.jpg"
     },
     {
-      "Id": "D:\\New folder\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\tick.jpg",
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\tick.jpg",
       "PackagePath": "staticwebassets\\logo\\tick.jpg"
     },
     {
