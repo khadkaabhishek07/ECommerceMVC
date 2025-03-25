@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "16glVPFuPW/q6SHl/mRydoGujDMJt72OxBy9uRpatBI=",
+  "Hash": "toP8+ofn3A7uP61J8C6XhpnZguTH9IKzR+0y+ybM4fQ=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -2808,6 +2808,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\basaladevi.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "logo/basaladevi#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n2xhlwhab2",
+      "Integrity": "rwa99QIO471H/ghrpdEpJPBzNbJbbt1KsaP4EMOrKvk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\basaladevi.png"
     },
     {
       "Identity": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\favicon.png",
@@ -11077,6 +11098,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "logo/basaladevi.n2xhlwhab2.png",
+      "AssetFile": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\basaladevi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rwa99QIO471H/ghrpdEpJPBzNbJbbt1KsaP4EMOrKvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 10:36:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n2xhlwhab2"
+        },
+        {
+          "Name": "label",
+          "Value": "logo/basaladevi.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rwa99QIO471H/ghrpdEpJPBzNbJbbt1KsaP4EMOrKvk="
+        }
+      ]
+    },
+    {
+      "Route": "logo/basaladevi.png",
+      "AssetFile": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\basaladevi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rwa99QIO471H/ghrpdEpJPBzNbJbbt1KsaP4EMOrKvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 10:36:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rwa99QIO471H/ghrpdEpJPBzNbJbbt1KsaP4EMOrKvk="
         }
       ]
     },

@@ -289,6 +289,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\basaladevi.png",
+      "PackagePath": "staticwebassets\\logo\\basaladevi.png"
+    },
+    {
       "Id": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\wwwroot\\logo\\favicon.png",
       "PackagePath": "staticwebassets\\logo\\favicon.png"
     },

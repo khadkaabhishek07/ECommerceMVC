@@ -69,6 +69,7 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\logo\basaladevi.png
 wwwroot\logo\favicon.png
 wwwroot\logo\logo.jpg
 wwwroot\logo\tick.jpg

@@ -225,7 +225,7 @@
             }
 
     .contact-submit-btn {
-        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        background: linear-gradient(135deg, #1e3a8a, #1e40af);
         border: none;
         padding: 10px 20px;
         border-radius: 30px;
@@ -235,7 +235,7 @@
     }
 
         .contact-submit-btn:hover {
-            background: linear-gradient(135deg, #feb47b, #ff7e5f);
+            background: linear-gradient(135deg, #1e40af, #1e3a8a);
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -347,6 +347,28 @@
             transform: translateY(-2px);
         }
 
+    .btn-shop-more {
+        background: linear-gradient(135deg, #ff3e6c, #ff8e8e);
+        color: white;
+        text-decoration: none;
+        padding: 12px 30px; /* Increased padding */
+        border-radius: 30px;
+        font-size: 1.125rem; /* Increased font size */
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        .btn-shop-more:hover {
+            background: linear-gradient(135deg, #ff8e8e, #ff3e6c);
+            color: white; /* Keep text color */
+            transform: none; /* Prevent movement */
+            box-shadow: none; /* Remove hover shadow */
+            text-decoration: none;
+        }
+
+
+      
+
     .product-info {
         padding: 20px;
         text-align: center;
@@ -398,14 +420,14 @@
                 <div class="col-md-10 hero-content">
                     <h1>Discover Unique Handicrafts</h1>
                     <p>Explore our collection of handmade crafts from artisans around the world.</p>
-                    <a class="btn btn-primary" asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts">Shop Now</a>
+                    <a class="btn-shop-more" asp-area="Customer" asp-controller="Home" asp-action="ViewAllProducts">Shop Now</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Circular Products Slider - BIGGER WITH CATEGORY NAMES -->
-    <section class="bg-light py-5">
+    <section class="bg-white py-5">
         <div class="container">
             <h2 class="h3 font-weight-bold text-dark mb-4">Featured Categories</h2>
             <div class="position-relative">
@@ -454,7 +476,7 @@
     </section>
 
     <!-- Top Featured Products -->
-    <section class="bg-white py-5">
+    <section class="bg-light py-5">
         <div class="container">
             <h2 class="h3 font-weight-bold text-dark mb-4">Top Featured Products</h2>
             <div class="row g-4">
@@ -464,7 +486,7 @@
                     <div class="col-md-4">
                         <div class="product-card">
                             <div class="product-image-container">
-                               
+
                                 <img src="@product.ProductImages.FirstOrDefault()?.ImageUrl" alt="@product.Title" class="img-fluid product-image">
                                 <div class="product-overlay">
                                     <a asp-action="Details" asp-route-productId="@product.Id" class="btn-view-details">View Details</a>
@@ -478,7 +500,7 @@
                                 <h5 class="product-title">@product.Title</h5>
                                 <div class="product-price">
                                     <span class="current-price">$@product.ListPrice</span>
-                                  
+
                                 </div>
                             </div>
                         </div>
@@ -489,69 +511,71 @@
         </div>
     </section>
 
-    <!-- FAQ Section with Accordion - BIGGER -->
-    <section class="bg-light py-5 faq-section">
+    <!-- FAQ Section - Full row with wider layout -->
+    <section class="bg-white py-5">
         <div class="container">
-            <h2 class="h3 font-weight-bold text-dark mb-5 text-center">Frequently Asked Questions</h2>
-            <div class="faq-container">
-                <div class="accordion" id="faqAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                How are the handicrafts made?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                All our handicrafts are handmade by skilled artisans using traditional techniques passed down through generations. Each piece is carefully crafted with attention to detail, ensuring quality and authenticity in every item.
+            <h2 class="h3 font-weight-bold text-dark mb-4 text-center">Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How are the handicrafts made?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    All our handicrafts are handmade by skilled artisans using traditional techniques passed down through generations. Each piece is carefully crafted with attention to detail, ensuring quality and authenticity in every item.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                What materials are used in your products?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                We use a variety of sustainable and ethically sourced materials including natural fibers, clay, wood, metals, and recycled materials. The specific materials vary by product and are detailed in each product description.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What materials are used in your products?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We use a variety of sustainable and ethically sourced materials including natural fibers, clay, wood, metals, and recycled materials. The specific materials vary by product and are detailed in each product description.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Do you ship internationally?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                Yes, we ship our products worldwide. International shipping times and costs vary depending on the destination. Please allow 10-21 business days for international orders to arrive after shipping.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you ship internationally?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we ship our products worldwide. International shipping times and costs vary depending on the destination. Please allow 10-21 business days for international orders to arrive after shipping.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What is your return policy?
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                We accept returns within 30 days of delivery for most items in their original condition. Custom orders and certain delicate items may not be eligible for return. Please contact our customer service team for assistance with returns.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What is your return policy?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept returns within 30 days of delivery for most items in their original condition. Custom orders and certain delicate items may not be eligible for return. Please contact our customer service team for assistance with returns.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Can I commission a custom piece?
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                Yes, we offer custom orders for many of our product categories. Please contact us with your requirements, and we will connect you with an appropriate artisan. Custom orders typically require 4-6 weeks for completion.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Can I commission a custom piece?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer custom orders for many of our product categories. Please contact us with your requirements, and we will connect you with an appropriate artisan. Custom orders typically require 4-6 weeks for completion.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -560,44 +584,129 @@
         </div>
     </section>
 
-    <!-- Contact Us Form Section - SMALLER -->
-    <section class="bg-white py-5 contact-section">
+    <!-- Testimonials Section -->
+    <section class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="h3 font-weight-bold text-dark mb-4 text-center">What Our Customers Say</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <!-- Testimonial 1 -->
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm rounded-3 testimonial-card">
+                                <div class="card-body text-center p-4">
+                                    <div class="mb-3">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Anish Thapa" class="rounded-circle shadow-sm" width="80" height="80">
+                                    </div>
+                                    <div class="testimonial-stars mb-3">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <p class="font-italic mb-3" style="color: #6c757d;">"The craftsmanship of the wooden sculpture I purchased is exceptional. You can feel the passion of the artisan in every detail. It's become the centerpiece of my living room!"</p>
+                                    <h5 class="mb-0" style="color: #343a40; font-weight: 600;">Anish Thapa</h5>
+                                    <p class="small text-muted">Art Collector</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm rounded-3 testimonial-card" style="background-color: rgba(255, 126, 95, 0.05);">
+                                <div class="card-body text-center p-4">
+                                    <div class="mb-3">
+                                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sami Shrestha" class="rounded-circle shadow-sm" width="80" height="80">
+                                    </div>
+                                    <div class="testimonial-stars mb-3">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <p class="font-italic mb-3" style="color: #6c757d;">"I ordered a handwoven basket as a gift for my mother, and she absolutely loves it! The quality is superb, and knowing it was made by skilled artisans makes it even more special."</p>
+                                    <h5 class="mb-0" style="color: #343a40; font-weight: 600;">Sami Shrestha</h5>
+                                    <p class="small text-muted">Happy Customer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm rounded-3 testimonial-card">
+                                <div class="card-body text-center p-4">
+                                    <div class="mb-3">
+                                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Saleem Baniya" class="rounded-circle shadow-sm" width="80" height="80">
+                                    </div>
+                                    <div class="testimonial-stars mb-3">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                    </div>
+                                    <p class="font-italic mb-3" style="color: #6c757d;">"The ceramic tea set I purchased exceeded my expectations. Not only is it beautiful to look at, but the functionality is perfect. The shipping was fast and the packaging protected everything well."</p>
+                                    <h5 class="mb-0" style="color: #343a40; font-weight: 600;">Saleem Baniya</h5>
+                                    <p class="small text-muted">Tea Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Section - With image on left -->
+    <section class="bg-white py-5">
         <div class="container">
             <h2 class="h3 font-weight-bold text-dark mb-4 text-center">Get In Touch</h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center mb-5">
-                    <p class="text-muted">Have questions about our products or services? Fill out the form and we'll get back to you as soon as possible.</p>
+            <div class="row align-items-center">
+                <!-- Image on the left -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="rounded-3 overflow-hidden shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Contact Us" class="img-fluid w-100" style="height: 400px; object-fit: cover;">
+                    </div>
                 </div>
-            </div>
-            <div class="contact-form">
-                <form asp-controller="Home" asp-action="Contact" method="post">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="Name" required>
-                    </div>
 
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email" name="Email" required>
-                    </div>
+                <!-- Contact form on the right -->
+                <div class="col-lg-6">
+                    <div class="contact-form shadow-sm rounded-3">
+                        <form asp-controller="Home" asp-action="Index" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="Name" required>
+                            </div>
 
-                    <div class="mb-3">
-                        <label for="subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="Subject" required>
-                    </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="Email" required>
+                            </div>
 
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="message" name="Message" rows="4" required></textarea>
-                    </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" name="Subject" required>
+                            </div>
 
-                    <div class="text-center">
-                        <button type="submit" class="contact-submit-btn">Send Message</button>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" name="Message" rows="4" required></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="contact-submit-btn">Send Message</button>
+                            </div>
+                        </form>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </section>
+
+
 </body>
 
 <script>
