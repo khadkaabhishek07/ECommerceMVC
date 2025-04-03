@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|c:\\users\\khadk\\downloads\\basaladevi\\ecommercemvc\\ecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|c:\\users\\khadk\\downloads\\basaladevi\\ecommercemvc\\ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{662FFFD3-9F8E-44A6-B094-BB511859BDEA}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\appsettings.json",
+              "RelativeDocumentMoniker": "ECommerce\\appsettings.json",
+              "ToolTip": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\appsettings.json",
+              "RelativeToolTip": "ECommerce\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAkAAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T16:32:44.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T10:29:13.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T10:29:13.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "ECommerce\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T10:29:01.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T10:29:01.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -76,12 +91,11 @@
               "RelativeToolTip": "ECommerce\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAADwvyAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T09:48:00.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T09:48:00.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_LoginPartial.cshtml",
@@ -89,12 +103,11 @@
               "RelativeToolTip": "ECommerce\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T09:47:21.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T09:47:21.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Program.cs",
               "RelativeDocumentMoniker": "ECommerce\\Program.cs",
@@ -102,12 +115,11 @@
               "RelativeToolTip": "ECommerce\\Program.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:44:38.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T09:44:38.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_Layout.cshtml",
@@ -115,12 +127,11 @@
               "RelativeToolTip": "ECommerce\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T04:16:18.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T04:16:18.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Landing.cshtml",
               "DocumentMoniker": "C:\\Users\\khadk\\Downloads\\Basaladevi\\ECommerceMVC\\ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
@@ -128,8 +139,7 @@
               "RelativeToolTip": "ECommerce\\Areas\\Customer\\Views\\Home\\Landing.cshtml",
               "ViewState": "AgIAAF4BAAAAAAAAAAAAAG4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T04:15:36.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T04:15:36.252Z"
             }
           ]
         }
